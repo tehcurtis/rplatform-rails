@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test/test_helper.rb
+END
+model_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test/model_test.rb
+END
+controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test/controller_test.rb
+END
+session_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test/session_test.rb
+END
+initialization_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test/initialization_test.rb
+END
+api_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test/api_test.rb
+END
+view_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/test/view_test.rb
+END

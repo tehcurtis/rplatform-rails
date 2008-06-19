@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/lib
+END
+status_manager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/lib/status_manager.rb
+END
+model_extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/lib/model_extensions.rb
+END
+controller_extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/lib/controller_extensions.rb
+END
+session_extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/lib/session_extensions.rb
+END
+view_extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/fapow/!svn/ver/107/vendor/plugins/rfacebook/lib/view_extensions.rb
+END
