@@ -1,4 +1,6 @@
 # AUTHORS:
+# - Curtis Edmond (www.okwithfailure.com)
+# thanks to matt for rfacebook
 # - Matt Pizzimenti (www.livelearncode.com)
 
 # LICENSE:
