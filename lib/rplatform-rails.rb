@@ -1,12 +1,23 @@
-['view_extensions', 'controller_extensions', 'model_extensions', 'session_extensions'].each do |l| 
-  require File.join(File.dirname(__FILE__), l)
+require 'rplatform'
+# load Facebook YAML configuration file (credit: Evan Weaver)
+::NETWORKS = {}
+if defined?(RAILS_ROOT) #find out something more elegant instead of this check...
+  yamlFile = YAML.load_file("#{RAILS_ROOT}/config/facebook.yml")
+
+
+  if File.exist?(yamlFile)
+    if yamlFile[RAILS_ENV]
+      NETWORKS.merge!(yamlFile[RAILS_ENV])
+    else
+      raise StandardError, "config/facebook.yml exists, but doesn't have a configuration for RAILS_ENV=#{RAILS_ENV}."
+    end
+  else
+    raise StandardError, "config/facebook.yml does not exist."
+  end
 end
 
-NETWORKS = {}
-
-# parse for full URLs in facebook.yml (multiple people have made this mistake)
 module RPlatform::Rails
-  VERSION = '0.0.1'
+  VERSION = '0.0.2'
   
   def self.fix_path(path)
     # check to ensure that the path is relative
@@ -26,6 +37,7 @@ module RPlatform::Rails
     return path
   end
 end
+
 
 NETWORKS.values.each do |network|
   network["canvas_path"] = RPlatform::Rails::fix_path(network["canvas_path"])

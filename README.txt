@@ -3,7 +3,7 @@
 * the rplatform gem
 
 == INSTALL:
-
+* sudo gem install rplatform
 * sudo gem install rplatform-rails
 
 == LICENSE:

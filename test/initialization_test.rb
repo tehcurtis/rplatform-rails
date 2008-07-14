@@ -2,6 +2,7 @@ require File.dirname(__FILE__) + "/test_helper"
 require "test/unit"
 require "rubygems"
 require "mocha"
+require 'application_controller'
 
 class InitializationTest < Test::Unit::TestCase
   
